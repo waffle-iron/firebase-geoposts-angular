@@ -1,7 +1,9 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 
+import { FirebaseModule } from './firebase.module';
+
 @NgModule( {
-  imports: [],
+  imports: [FirebaseModule],
   declarations: [],
   exports: [],
   providers: []
