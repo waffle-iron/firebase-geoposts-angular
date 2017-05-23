@@ -46,3 +46,7 @@ yarn.lock
 
 # Environment Variables
 /src/environments
+
+# Firebase
+/functions/node_modules
+firebase-debug.log
