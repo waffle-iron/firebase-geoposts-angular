@@ -41,9 +41,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# Yarn Files
-yarn.lock
-
 # Environment Variables
 /src/environments
 
