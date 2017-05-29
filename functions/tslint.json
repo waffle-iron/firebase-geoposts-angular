@@ -4,6 +4,9 @@
     "quotemark": [
       true,
       "single"
+    ],
+    "trailing-comma": [
+      false
     ]
   }
 }
