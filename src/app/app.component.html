@@ -1,4 +1,7 @@
 <h1>
   {{title}}
 </h1>
+<a [routerLink]="[ '/home' ]">Home</a>
+<a *ngIf="!user" [routerLink]="[ '/login' ]">Login</a>
+<a *ngIf="user" [routerLink]="[ '/login' ]" (click)="logout()">Logout</a>
 <router-outlet></router-outlet>
