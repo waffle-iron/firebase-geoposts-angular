@@ -7,7 +7,7 @@ import { PathNotFoundComponent } from './path-not-found/path-not-found.component
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'user', loadChildren: './user/user.module#UserModule' },
+  { path: 'login', loadChildren: './login/login.module#LoginModule' },
   { path: '**', pathMatch: 'full', component: PathNotFoundComponent }
 ];
 

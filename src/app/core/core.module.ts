@@ -1,12 +1,13 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 
 import { FirebaseModule } from './firebase.module';
+import { AuthService } from './auth.service';
 
 @NgModule( {
   imports: [FirebaseModule],
   declarations: [],
   exports: [],
-  providers: []
+  providers: [AuthService]
 } )
 export class CoreModule {
   // Ensure that CoreModule is only loaded into AppModule

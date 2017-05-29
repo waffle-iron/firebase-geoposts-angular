@@ -47,3 +47,4 @@ Thumbs.db
 # Firebase
 /functions/node_modules
 firebase-debug.log
+/functions/dist

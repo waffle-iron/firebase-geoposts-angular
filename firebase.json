@@ -4,11 +4,17 @@
   },
   "hosting": {
     "public": "dist",
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }],
+    "ignore": [
+      "firebase.json",
+      "tsconfig.json",
+      "tslint.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/src/**"
     ]
   }
 }
