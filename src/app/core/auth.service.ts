@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { AngularFireAuth } from 'angularfire2/auth';
 
 import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/do'
+import 'rxjs/add/operator/do';
 
 import * as firebase from 'firebase/app';
 
