@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/jflagarde/firebase-geoposts-angular.png?label=ready&title=Ready)](https://waffle.io/jflagarde/firebase-geoposts-angular?utm_source=badge)
 # FirebaseGeoposts
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
